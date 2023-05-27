@@ -1,0 +1,172 @@
+/* up-to 768px and up  */
+
+/* up-to 992px and up */
+
+/* up-to 1200px */
+
+/* from 1200px */
+
+/* up-to 576px */
+@media screen and (max-width:576px) {
+
+    header .navbar form {
+        width: 30rem;
+        align-items: self-start;
+        flex-direction: column;
+    }
+
+    header .navbar form .btn {
+        margin: 0 0;
+        margin-top: 1rem;
+    }
+
+    main #section-1 .content-right {
+        left: 2rem;
+    }
+
+    main #section-1 .content-left {
+        margin-top: 5rem;
+    }
+
+    main #section-1 .content-left h1 {
+        width: 31.25rem;
+    }
+
+    main #section-1 .content {
+        margin-top: 2rem;
+        padding: 1rem 0;
+    }
+
+    main #collection .content-start .start-left {
+        display: inline-block;
+        margin-right: 3rem;
+    }
+
+    main #collection .content-mid {
+        margin-left: 0rem;
+    }
+
+    main #collection .content-mid {
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+
+    main #collection .content-mid .mid-details {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    main #collection .content-mid .mid-details .mid-right .btn {
+        margin: 1rem auto;
+    }
+
+    main #collection .content-end {
+        margin-top: 3rem;
+    }
+ }
+
+/* up-to 414px  */
+@media  screen and (max-width:414px) {
+
+    body{
+        word-wrap: break-word;
+        white-space: normal;
+    }
+    main #section-1 .content-right {
+        left: 0rem !important;
+    }
+    
+    main #section-1 .content-right .img-2 {
+        width: 19rem;
+    }
+
+    main #section-1 .content-right .img-3 {
+        width: 16rem;
+        left: 4.5rem;
+    }
+
+    main #section-1 .content-right .img-4 {
+        width: 13rem;
+        left: 9rem;
+    }
+
+
+    main #section-1 .content-right .img-1 {
+        width: 6rem;
+        left: -1rem;
+        top: 8rem;
+    }
+
+    main #section-1 .content-right .image-text {
+        top: 2rem;
+        left: 1rem;
+    }
+
+    main #section-1 .content-right .image-text-bottom {
+        width: 14.75rem;
+        top: 15.5rem;
+        left: 1.5rem;
+    }
+
+    main #section-1 .content-right .image-text-bottom .bottom-left {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    main #section-1 .content-left h1 {
+        width: 23.25rem;
+        font-size: 2rem;
+    }
+
+    main #section-1 .content-left p {
+        font-size: 1rem;
+        font-weight: 400;
+        width: 22.438rem;
+        line-height: 2rem;
+    }
+
+    main #section-1 .content {
+        margin-top: 2rem;
+        padding: 0rem 0;
+    }
+
+    main #section-1 .content-left {
+        margin-top: 3rem;
+    }
+
+    main #section-1 .content .content-mid {
+        margin-top: 2rem;
+    }
+
+    main #section-1 .content .content-end {
+        margin-top: 2rem;
+    }
+
+    main #collection .content-start .start-left {
+        display: inline-block;
+        margin-right: 3rem;
+    }
+
+    main #collection .content-mid {
+        margin-left: 0rem;
+    }
+
+    main #collection .content-mid {
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+
+    main #collection .content-mid .mid-details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main #collection .content-mid .mid-details .mid-right .btn {
+        margin: 1rem auto;
+    }
+
+    main #collection .content-end {
+        margin-top: 3rem;
+    }
+}
